@@ -1,4 +1,5 @@
 from ff_espn_api import League
+from fuzzywuzzy import fuzz,process
 import csv
 
 league_id = 1889382
@@ -12,7 +13,7 @@ league = League(league_id, year, espn_s2, swid)
 
 value_file = 'player_vals.csv'
 
-val_dict = {};
+val_dict = {}
 with open(value_file,newline='') as csvfile:
 	reader = csv.reader(csvfile)
 	reader.__next__()
@@ -23,6 +24,8 @@ with open(value_file,newline='') as csvfile:
 		dudes = [row[ii] for ii  in [3,6,9,12] if row[ii] is not '']
 		for dude in dudes:
 			val_dict.update({dude : val})
+
+
 
 
 my_team = league.teams[team_num-1]
