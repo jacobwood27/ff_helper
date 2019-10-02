@@ -1,2 +1,3 @@
 ff_espn_api
 fuzzywuzzy[speedup]
+sleeper-api-wrapper

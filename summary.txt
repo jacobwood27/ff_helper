@@ -1,0 +1,192 @@
+Grundle Me This:
+	YOUR TEAM:
+		Leonard Fournette........31.0
+		Saquon Barkley...........27.5
+		David Montgomery.........15.5
+		Sammy Watkins............15.0
+		Carson Wentz.............9.5
+		Mike Williams............8.0
+		Courtland Sutton.........6.0
+		Rex Burkhead.............5.0
+		Latavius Murray..........4.5
+		OJ Howard................3.5
+		Marvin Jones.............3.0
+		Baker Mayfield...........3.0
+		Peyton Barber............2.0
+		Preston Williams.........0
+		Antonio Brown............0.0
+	AVAILABLE FREE AGENTS:
+		Josh Allen...............4.0
+		Mecole Hardman...........0.5
+	CONSIDER THESE MOVES:
+		Antonio Brown............DROP
+		Josh Allen...............ADD
+		Preston Williams.........DROP
+		Mecole Hardman...........ADD
+	CONSIDER THIS STARTING LINEUP:
+		Carson Wentz.............2
+		Leonard Fournette........3
+		David Montgomery.........5
+		Sammy Watkins............3
+		Courtland Sutton.........6
+		OJ Howard................3
+		Mike Williams............14
+	HOWEVER, CONSIDER THESE SKILL STREAMS:
+		TE - Tyler Eifert........3
+		FLEX - Mecole Hardman....11
+	CONSIDER THIS DEFENSE STREAMING ADVICE:
+		Looks like you already have a great option in rank 4 - CIN
+	CONSIDER THIS KICKER STREAMING ADVICE:
+		Looks like you already have a great option in rank 1 - Bullock
+
+Auction League:
+	YOUR TEAM:
+		Michael Thomas...........33.5
+		Patrick Mahomes..........30.5
+		Saquon Barkley...........27.5
+		TY Hilton................22.0
+		Phillip Lindsay..........12.5
+		Marquise Brown...........8.5
+		Will Dissly..............8.0
+		Duke Johnson.............7.0
+		Courtland Sutton.........6.0
+		Malcolm Brown............3.5
+		Peyton Barber............2.0
+		Alexander Mattison.......0.5
+		Jaylen Samuels...........0.0
+		Dante Pettis.............0.0
+	AVAILABLE FREE AGENTS:
+		Adrian Peterson..........5.0
+		Latavius Murray..........4.5
+		Philip Rivers............4.0
+		Baker Mayfield...........3.0
+		Raheem Mostert...........2.0
+		John Ross................1.5
+	CONSIDER THESE MOVES:
+		Dante Pettis.............DROP
+		Adrian Peterson..........ADD
+		Jaylen Samuels...........DROP
+		Latavius Murray..........ADD
+		Alexander Mattison.......DROP
+		Philip Rivers............ADD
+		Peyton Barber............DROP
+		Baker Mayfield...........ADD
+	CONSIDER THIS STARTING LINEUP:
+		Patrick Mahomes..........1
+		Phillip Lindsay..........5
+		Jaylen Samuels...........8
+		Michael Thomas...........1
+		Marquise Brown...........4
+		Will Dissly..............2
+		Courtland Sutton.........10
+	HOWEVER, CONSIDER THESE SKILL STREAMS:
+	CONSIDER THIS DEFENSE STREAMING ADVICE:
+		Looks like you should pickup rank 4 - CIN over your rank ['5'] - ['CHI']
+	CONSIDER THIS KICKER STREAMING ADVICE:
+		Looks like you should pickup rank 1 - Bullock over your rank ['3'] - ['Lutz']
+
+Lynn Family League:
+	YOUR TEAM:
+		Marlon Mack..............29.5
+		Saquon Barkley...........27.5
+		Tyreek Hill..............25.0
+		TY Hilton................22.0
+		Deshaun Watson...........17.0
+		Miles Sanders............11.5
+		Tevin Coleman............9.5
+		Rashaad Penny............9.5
+		Greg Olsen...............8.0
+		Frank Gore...............7.5
+		Duke Johnson.............7.0
+		DK Metcalf...............4.5
+		Darrel Williams..........1.5
+	AVAILABLE FREE AGENTS:
+		DJ Chark.................8.0
+		Jameis Winston...........7.0
+		Kenyan Drake.............6.5
+		Rex Burkhead.............5.0
+		Robby Anderson...........4.5
+		Latavius Murray..........4.5
+		Michael Gallup...........4.0
+		Will Fuller..............3.0
+		Golden Tate..............3.0
+		Jamaal Williams..........1.0
+		Mecole Hardman...........0.5
+		Alexander Mattison.......0.5
+	CONSIDER THESE MOVES:
+		Darrel Williams..........DROP
+		DJ Chark.................ADD
+		DK Metcalf...............DROP
+		Jameis Winston...........ADD
+	CONSIDER THIS STARTING LINEUP:
+		Deshaun Watson...........1
+		Marlon Mack..............3
+		Darrel Williams..........7
+		TY Hilton................6
+		DK Metcalf...............7
+		Greg Olsen...............2
+		Miles Sanders............12
+	HOWEVER, CONSIDER THESE SKILL STREAMS:
+		WR - Will Fuller.........6
+		WR - DJ Chark............6
+		WR - Mecole Hardman......7
+		FLEX - Will Fuller.......9
+		FLEX - DJ Chark..........9
+		FLEX - Mecole Hardman....11
+		FLEX - Geronimo Allison..12
+	CONSIDER THIS DEFENSE STREAMING ADVICE:
+		Looks like you already have a great option in rank 1 - PHI
+	CONSIDER THIS KICKER STREAMING ADVICE:
+		Looks like you already have a great option in rank 1 - Bullock
+
+PB League:
+	YOUR TEAM:
+		Christian McCaffrey......59.0
+		Nick Chubb...............51.0
+		Brandin Cooks............22.5
+		JuJu SmithSchuster.......22.0
+		Lamar Jackson............20.5
+		Stefon Diggs.............13.5
+		Phillip Lindsay..........12.5
+		Miles Sanders............11.5
+		Rashaad Penny............9.5
+		Ronald Jones.............9.0
+		Carlos Hyde..............9.0
+		DK Metcalf...............4.5
+		OJ Howard................3.5
+		Peyton Barber............2.0
+	AVAILABLE FREE AGENTS:
+		Frank Gore...............7.5
+		Rex Burkhead.............5.0
+		Adrian Peterson..........5.0
+		Robby Anderson...........4.5
+		Latavius Murray..........4.5
+		Baker Mayfield...........3.0
+		Raheem Mostert...........2.0
+		John Ross................1.5
+		Jamaal Williams..........1.0
+		Mecole Hardman...........0.5
+		Alexander Mattison.......0.5
+	CONSIDER THESE MOVES:
+		Peyton Barber............DROP
+		Frank Gore...............ADD
+		OJ Howard................DROP
+		Rex Burkhead.............ADD
+		DK Metcalf...............DROP
+		Adrian Peterson..........ADD
+	CONSIDER THIS STARTING LINEUP:
+		Lamar Jackson............1
+		Christian McCaffrey......1
+		Nick Chubb...............2
+		JuJu SmithSchuster.......3
+		Brandin Cooks............4
+		OJ Howard................3
+		Stefon Diggs.............5
+	HOWEVER, CONSIDER THESE SKILL STREAMS:
+		TE - Eric Ebron..........3
+		TE - Tyler Eifert........3
+	CONSIDER THIS DEFENSE STREAMING ADVICE:
+		Looks like you already have a great option in rank 1 - PHI
+	CONSIDER THIS KICKER STREAMING ADVICE:
+		Looks like you already have a great option in rank 1 - Bullock
+
