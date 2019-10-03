@@ -1,8 +1,8 @@
 Grundle Me This:
 	YOUR TEAM:
+		Saquon Barkley...........31.0
 		Leonard Fournette........31.0
-		Saquon Barkley...........27.5
-		David Montgomery.........15.5
+		David Montgomery.........17.0
 		Sammy Watkins............15.0
 		Carson Wentz.............9.5
 		Mike Williams............8.0
@@ -14,7 +14,7 @@ Grundle Me This:
 		Baker Mayfield...........3.0
 		Peyton Barber............2.0
 		Preston Williams.........0
-		Antonio Brown............0.0
+		Antonio Brown............0
 	AVAILABLE FREE AGENTS:
 		Josh Allen...............4.0
 		Mecole Hardman...........0.5
@@ -25,36 +25,38 @@ Grundle Me This:
 		Mecole Hardman...........ADD
 	CONSIDER THIS STARTING LINEUP:
 		Carson Wentz.............2
-		Leonard Fournette........3
-		David Montgomery.........5
+		Leonard Fournette........2
+		David Montgomery.........4
 		Sammy Watkins............3
 		Courtland Sutton.........6
-		OJ Howard................3
-		Mike Williams............14
+		OJ Howard................4
 	HOWEVER, CONSIDER THESE SKILL STREAMS:
-		TE - Tyler Eifert........3
-		FLEX - Mecole Hardman....11
+		TE - Tyler Eifert........4
+		FLEX - Mecole Hardman....10
+		FLEX - Diontae Johnson...12
+		FLEX - Corey Davis.......13
+		FLEX - AJ Brown..........13
 	CONSIDER THIS DEFENSE STREAMING ADVICE:
-		Looks like you already have a great option in rank 4 - CIN
+		Looks like you should pickup rank 5 - MIN over your rank ['9'] - ['CIN']
 	CONSIDER THIS KICKER STREAMING ADVICE:
 		Looks like you already have a great option in rank 1 - Bullock
 
 Auction League:
 	YOUR TEAM:
-		Michael Thomas...........33.5
+		Derrick Henry............37.0
+		Saquon Barkley...........31.0
 		Patrick Mahomes..........30.5
-		Saquon Barkley...........27.5
-		TY Hilton................22.0
+		TY Hilton................26.0
+		LeSean McCoy.............19.0
 		Phillip Lindsay..........12.5
 		Marquise Brown...........8.5
 		Will Dissly..............8.0
 		Duke Johnson.............7.0
 		Courtland Sutton.........6.0
-		Malcolm Brown............3.5
 		Peyton Barber............2.0
 		Alexander Mattison.......0.5
-		Jaylen Samuels...........0.0
-		Dante Pettis.............0.0
+		Jaylen Samuels...........0
+		Dante Pettis.............0
 	AVAILABLE FREE AGENTS:
 		Adrian Peterson..........5.0
 		Latavius Murray..........4.5
@@ -73,26 +75,26 @@ Auction League:
 		Baker Mayfield...........ADD
 	CONSIDER THIS STARTING LINEUP:
 		Patrick Mahomes..........1
-		Phillip Lindsay..........5
-		Jaylen Samuels...........8
-		Michael Thomas...........1
+		Derrick Henry............2
+		LeSean McCoy.............4
 		Marquise Brown...........4
-		Will Dissly..............2
-		Courtland Sutton.........10
+		Courtland Sutton.........6
+		Will Dissly..............3
+		Phillip Lindsay..........6
 	HOWEVER, CONSIDER THESE SKILL STREAMS:
 	CONSIDER THIS DEFENSE STREAMING ADVICE:
-		Looks like you should pickup rank 4 - CIN over your rank ['5'] - ['CHI']
+		Looks like you already have a great option in rank 2 - CHI
 	CONSIDER THIS KICKER STREAMING ADVICE:
 		Looks like you should pickup rank 1 - Bullock over your rank ['3'] - ['Lutz']
 
 Lynn Family League:
 	YOUR TEAM:
+		Saquon Barkley...........31.0
 		Marlon Mack..............29.5
-		Saquon Barkley...........27.5
-		Tyreek Hill..............25.0
-		TY Hilton................22.0
+		Tyreek Hill..............29.0
+		TY Hilton................26.0
 		Deshaun Watson...........17.0
-		Miles Sanders............11.5
+		Miles Sanders............12.0
 		Tevin Coleman............9.5
 		Rashaad Penny............9.5
 		Greg Olsen...............8.0
@@ -121,19 +123,21 @@ Lynn Family League:
 	CONSIDER THIS STARTING LINEUP:
 		Deshaun Watson...........1
 		Marlon Mack..............3
-		Darrel Williams..........7
-		TY Hilton................6
+		Miles Sanders............7
 		DK Metcalf...............7
-		Greg Olsen...............2
-		Miles Sanders............12
+		TY Hilton................7
+		Greg Olsen...............3
+		Frank Gore...............11
 	HOWEVER, CONSIDER THESE SKILL STREAMS:
 		WR - Will Fuller.........6
 		WR - DJ Chark............6
 		WR - Mecole Hardman......7
-		FLEX - Will Fuller.......9
+		WR - Geronimo Allison....7
+		WR - Robby Anderson......7
+		FLEX - Will Fuller.......7
 		FLEX - DJ Chark..........9
-		FLEX - Mecole Hardman....11
-		FLEX - Geronimo Allison..12
+		FLEX - Mecole Hardman....10
+		FLEX - Geronimo Allison..10
 	CONSIDER THIS DEFENSE STREAMING ADVICE:
 		Looks like you already have a great option in rank 1 - PHI
 	CONSIDER THIS KICKER STREAMING ADVICE:
@@ -141,35 +145,33 @@ Lynn Family League:
 
 PB League:
 	YOUR TEAM:
-		Christian McCaffrey......59.0
+		Christian McCaffrey......67.5
 		Nick Chubb...............51.0
-		Brandin Cooks............22.5
-		JuJu SmithSchuster.......22.0
+		JuJu SmithSchuster.......28.0
+		Brandin Cooks............25.5
 		Lamar Jackson............20.5
-		Stefon Diggs.............13.5
+		Stefon Diggs.............17.0
 		Phillip Lindsay..........12.5
-		Miles Sanders............11.5
+		Miles Sanders............12.0
 		Rashaad Penny............9.5
 		Ronald Jones.............9.0
 		Carlos Hyde..............9.0
+		Frank Gore...............7.5
 		DK Metcalf...............4.5
 		OJ Howard................3.5
-		Peyton Barber............2.0
 	AVAILABLE FREE AGENTS:
-		Frank Gore...............7.5
 		Rex Burkhead.............5.0
 		Adrian Peterson..........5.0
 		Robby Anderson...........4.5
 		Latavius Murray..........4.5
 		Baker Mayfield...........3.0
 		Raheem Mostert...........2.0
+		Peyton Barber............2.0
 		John Ross................1.5
 		Jamaal Williams..........1.0
 		Mecole Hardman...........0.5
 		Alexander Mattison.......0.5
 	CONSIDER THESE MOVES:
-		Peyton Barber............DROP
-		Frank Gore...............ADD
 		OJ Howard................DROP
 		Rex Burkhead.............ADD
 		DK Metcalf...............DROP
@@ -180,11 +182,12 @@ PB League:
 		Nick Chubb...............2
 		JuJu SmithSchuster.......3
 		Brandin Cooks............4
-		OJ Howard................3
-		Stefon Diggs.............5
+		OJ Howard................4
+		Stefon Diggs.............4
 	HOWEVER, CONSIDER THESE SKILL STREAMS:
-		TE - Eric Ebron..........3
-		TE - Tyler Eifert........3
+		TE - Eric Ebron..........4
+		TE - Tyler Eifert........4
+		TE - Jimmy Graham........4
 	CONSIDER THIS DEFENSE STREAMING ADVICE:
 		Looks like you already have a great option in rank 1 - PHI
 	CONSIDER THIS KICKER STREAMING ADVICE:

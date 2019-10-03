@@ -1,3 +1,53 @@
+
+NFL_teams = [
+    ['ARI', 'Arizona', 'Cardinals', 'Arizona Cardinals'],
+    ['ATL', 'Atlanta', 'Falcons', 'Atlanta Falcons'],
+    ['BAL', 'Baltimore', 'Ravens', 'Baltimore Ravens'],
+    ['BUF', 'Buffalo', 'Bills', 'Buffalo Bills'],
+    ['CAR', 'Carolina', 'Panthers', 'Carolina Panthers'],
+    ['CHI', 'Chicago', 'Bears', 'Chicago Bears'],
+    ['CIN', 'Cincinnati', 'Bengals', 'Cincinnati Bengals'],
+    ['CLE', 'Cleveland', 'Browns', 'Cleveland Browns'],
+    ['DAL', 'Dallas', 'Cowboys', 'Dallas Cowboys'],
+    ['DEN', 'Denver', 'Broncos', 'Denver Broncos'],
+    ['DET', 'Detroit', 'Lions', 'Detroit Lions'],
+    ['GB', 'Green Bay', 'Packers', 'Green Bay Packers', 'G.B.', 'GNB'],
+    ['HOU', 'Houston', 'Texans', 'Houston Texans'],
+    ['IND', 'Indianapolis', 'Colts', 'Indianapolis Colts'],
+    ['JAC', 'Jacksonville', 'Jaguars', 'Jacksonville Jaguars', 'JAX'],
+    ['KC', 'Kansas City', 'Chiefs', 'Kansas City Chiefs', 'K.C.', 'KAN'],
+    ['LA', 'Los Angeles', 'Rams', 'Los Angeles Rams', 'L.A.'],
+    ['MIA', 'Miami', 'Dolphins', 'Miami Dolphins'],
+    ['MIN', 'Minnesota', 'Vikings', 'Minnesota Vikings'],
+    ['NE', 'New England', 'Patriots', 'New England Patriots', 'N.E.', 'NWE'],
+    ['NO', 'New Orleans', 'Saints', 'New Orleans Saints', 'N.O.', 'NOR'],
+    ['NYG', 'Giants', 'New York Giants', 'N.Y.G.'],
+    ['NYJ', 'Jets', 'New York Jets', 'N.Y.J.'],
+    ['OAK', 'Oakland', 'Raiders', 'Oakland Raiders'],
+    ['PHI', 'Philadelphia', 'Eagles', 'Philadelphia Eagles'],
+    ['PIT', 'Pittsburgh', 'Steelers', 'Pittsburgh Steelers'],
+    ['SD', 'San Diego', 'Chargers', 'San Diego Chargers', 'S.D.', 'SDG'],
+    ['SEA', 'Seattle', 'Seahawks', 'Seattle Seahawks'],
+    ['SF', 'San Francisco', '49ers', 'San Francisco 49ers', 'S.F.', 'SFO'],
+    ['STL', 'St. Louis', 'Rams', 'St. Louis Rams', 'S.T.L.'],
+    ['TB', 'Tampa Bay', 'Buccaneers', 'Tampa Bay Buccaneers', 'T.B.', 'TAM'],
+    ['TEN', 'Tennessee', 'Titans', 'Tennessee Titans'],
+    ['WAS', 'Washington', 'Redskins', 'Washington Redskins', 'WSH'],
+    ]
+    
+def standard_team(team):
+    """
+    Returns a standard abbreviation when team corresponds to a team in
+    nflgame.teams (case insensitive).  All known variants of a team name are
+    searched. If no team is found, None is returned.
+    """
+    team = team.lower()
+    for variants in NFL_teams:
+        for variant in variants:
+            if team == variant.lower():
+                return variants[0]
+    return None
+
 def get_dudes(my_league):   
 
     if my_league['platform'] == 'ESPN':
@@ -217,7 +267,7 @@ def get_summary_text(league,my_ros_dudes,my_ros_ranks,unowned_ros_dudes,unowned_
     txt.append('\tCONSIDER THESE MOVES:\n')
 
     idx = 0
-    while my_ros_ranks[-1-idx] < unowned_ros_ranks[idx]:
+    while idx<len(unowned_ros_ranks) and my_ros_ranks[-1-idx] < unowned_ros_ranks[idx]:
         txt.append('\t\t' + my_ros_dudes[-1-idx] + (spacing-len(my_ros_dudes[-1-idx]))*'.' + 'DROP' + '\n')
         txt.append('\t\t' + unowned_ros_dudes[idx] + (spacing-len(unowned_ros_dudes[idx]))*'.' + 'ADD' + '\n')
         idx+=1
@@ -295,7 +345,6 @@ def find_after( s, first):
 
 def get_boris_stuff(URL):
     import requests
-    import bs4
 
     page = requests.get(URL)
     text = page.text
@@ -315,6 +364,68 @@ def get_boris_stuff(URL):
         tiers.extend([tier_no] * len(players))
 
     return dudes,tiers
+
+def get_ros_stuff(URL):
+    import requests
+    import json
+
+    page = requests.get(URL)
+    text = page.text
+    d = json.loads(text)
+
+    recent_week = max([int(a[5::]) for a in list(d['rankings'])])
+    recent_key = 'Week ' + str(recent_week)
+
+    dudes = []
+    ranks = []
+    for row in d['rankings'][recent_key]['halfppr']:
+        val = float(row[1])
+        for player in row[2::]:
+            if player['name'] is not '':
+                dudes.append(player['name'])
+                ranks.append(val)
+
+    return dudes,ranks
+
+def get_reddit_expert_rank(expert,pos):
+    import praw
+    import bs4
+    reddit = praw.Reddit(user_agent='FF extract',client_id='KJg5EYhXS1AEuw', client_secret="BKVUw4m7KVzRGnnsf3jYAZ8sJks")
+    submissions = [s for s in reddit.redditor(expert).submissions.new()]
+
+    ranked_list = []
+    if expert == 'subvertadown':
+        if pos.lower() == 'def':
+            for post in submissions:
+                if 'defensive maneuvers' in post.title.lower():
+                    post_html = post.selftext_html
+                    break
+            soup=bs4.BeautifulSoup(post_html,features="html.parser")
+            table = soup.find("table")
+
+            for row in table.find_all("tr")[1:]:
+                dataset = [td.get_text() for td in row.find_all("td")]
+                team = standard_team(dataset[0])
+                ranked_list.append(team)
+
+        if pos.lower() == 'k':
+            for post in submissions:
+                if "but here's the kicker" in post.title.lower():
+                    post_html = post.selftext_html
+                    break
+            soup=bs4.BeautifulSoup(post_html,features="html.parser")
+            table = soup.find("table")
+            headings = [th.get_text() for th in table.find("tr").find_all("th")]
+
+            for row in table.find_all("tr")[1:]:
+                dataset = [td.get_text() for td in row.find_all("td")]
+                guy = dataset[0]
+                ranked_list.append(guy)
+
+    else:
+        raise ValueError('I do not know how to interpret results from ' + expert + '.')
+
+    return ranked_list
 
 def get_weekly(my_dudes,rostered_dudes,weekly_method):
     from fuzzywuzzy import fuzz,process
@@ -429,4 +540,6 @@ def get_weekly(my_dudes,rostered_dudes,weekly_method):
     weekly_tiers = start_QBt + start_RBt + start_WRt + start_TEt + start_FLEXt
 
     return weekly_team,weekly_tiers,potential_stream_names,potential_stream_pos,potential_stream_tiers
+
+
 
