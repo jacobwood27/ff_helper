@@ -50,6 +50,8 @@ def standard_team(team):
 
 def get_dudes(my_league):   
 
+    starting_lineup = []
+
     if my_league['platform'] == 'ESPN':
         from ff_espn_api import League
 
@@ -77,6 +79,19 @@ def get_dudes(my_league):
             rostered_pals.extend(dudes)
             rostered_def.extend([dude.proTeam for dude in roster if 'D/ST' in dude.eligibleSlots])
             rostered_kick.extend([dude.name for dude in roster if 'K' in dude.eligibleSlots])
+
+
+        team_name = my_team.team_name
+        boxscores = league.box_scores()
+        for boxscore in boxscores:
+            if boxscore.away_team.team_name == team_name:
+                my_guys = boxscore.away_lineup
+            elif boxscore.home_team.team_name == team_name:
+                my_guys = boxscore.home_lineup
+
+        for guy in my_guys:
+            if guy.slot_position not in ['D/ST','K','BE']:
+                starting_lineup.append(guy.name)
 
     elif my_league['platform'] == 'YAHOO':
         from yahoo_oauth import OAuth2
@@ -109,6 +124,7 @@ def get_dudes(my_league):
         my_pos = [dude['eligible_positions'][0] for dude in my_roster if not ('K' in dude['eligible_positions'] or 'DEF' in dude['eligible_positions'])]
         my_def = [dude['name'] for dude in my_roster if 'DEF' in dude['eligible_positions']]
         my_kick = [dude['name'] for dude in my_roster if 'K' in dude['eligible_positions']]
+        starting_lineup = [dude['name'] for dude in my_roster if not dude['selected_position'] in ['BN','K','DEF']]
 
         def_map  = { #This neglects the RAMS and the GIANTS because Yahoo is dumb and I don't want to figure out their player IDs.
             'New England':'NE',
@@ -170,6 +186,8 @@ def get_dudes(my_league):
         my_team = rosters[team_num-1]
         my_dudes = [players[id] for id in my_team['players']]
         my_pals = [dude['full_name'] for dude in my_dudes if not (('DEF' in dude['fantasy_positions']) or ('K' in dude['fantasy_positions']))]
+        starting_dudes = [players[id] for id in my_team['starters']]
+        starting_lineup = [dude['full_name'] for dude in starting_dudes if not (('DEF' in dude['fantasy_positions']) or ('K' in dude['fantasy_positions']))]
         my_pos = [dude['position'] for dude in my_dudes if not (('DEF' in dude['fantasy_positions']) or ('K' in dude['fantasy_positions']))]
         my_def = [dude['player_id'] for dude in my_dudes if 'DEF' in dude['fantasy_positions']]
         my_kick = [dude['full_name'] for dude in my_dudes if 'K' in dude['fantasy_positions']]
@@ -181,11 +199,12 @@ def get_dudes(my_league):
         rostered_def = [dude['player_id'] for dude in rostered_dudes if 'DEF' in dude['fantasy_positions']]
         rostered_kick = [dude['full_name'] for dude in rostered_dudes if 'K' in dude['fantasy_positions']]
 
+
+
     else:
         raise ValueError('League platform ' + league.platform + ' is not supported.')
 
-
-    return my_pals,my_pos,rostered_pals,my_def,rostered_def,my_kick,rostered_kick
+    return my_pals,my_pos,rostered_pals,my_def,rostered_def,my_kick,rostered_kick,clean_names(starting_lineup)
 
 def clean_names(dirty_names):
     from nameparser import HumanName
@@ -252,7 +271,7 @@ def parse_ros_ranks(ros_file):
     return ranks,ranked_dudes
 
 
-def get_summary_text(league,my_ros_dudes,my_ros_ranks,unowned_ros_dudes,unowned_ros_ranks,def_advice,kick_advice,weekly_team,weekly_tiers,potential_stream_names,potential_stream_pos,potential_stream_tiers):
+def get_summary_text(league,my_ros_dudes,my_ros_ranks,unowned_ros_dudes,unowned_ros_ranks,def_advice,kick_advice,weekly_team,weekly_tiers,potential_stream_names,potential_stream_pos,potential_stream_tiers,starters):
     
     spacing = 25 # Number of characters before ranking printed 
 
@@ -275,6 +294,15 @@ def get_summary_text(league,my_ros_dudes,my_ros_ranks,unowned_ros_dudes,unowned_
     txt.append('\tCONSIDER THIS STARTING LINEUP:\n')
     for guy,tier in zip(weekly_team,weekly_tiers):
         txt.append('\t\t' + guy + (spacing-len(guy))*'.' + str(tier) + '\n')
+
+    txt.append('\tBORIS CHEN SAYS TO MAKE THESE CHANGES TO LINEUP:\n')
+    for starter in starters:
+        if starter not in weekly_team:
+            txt.append('\t\t' + starter + (spacing-len(starter))*'.' + 'BENCH' + '\n')
+    
+    for guy in weekly_team:
+        if guy not in starters:
+            txt.append('\t\t' + guy + (spacing-len(guy))*'.' + 'START' + '\n')
     
     txt.append('\tHOWEVER, CONSIDER THESE SKILL STREAMS:\n')
     for guy,tier,pos in zip(potential_stream_names,potential_stream_tiers,potential_stream_pos):
@@ -415,7 +443,6 @@ def get_reddit_expert_rank(expert,pos):
                     break
             soup=bs4.BeautifulSoup(post_html,features="html.parser")
             table = soup.find("table")
-            headings = [th.get_text() for th in table.find("tr").find_all("th")]
 
             for row in table.find_all("tr")[1:]:
                 dataset = [td.get_text() for td in row.find_all("td")]

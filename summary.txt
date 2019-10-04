@@ -30,6 +30,8 @@ Grundle Me This:
 		Sammy Watkins............3
 		Courtland Sutton.........6
 		OJ Howard................4
+	BORIS CHEN SAYS TO MAKE THESE CHANGES TO LINEUP:
+		Mike Williams................BENCH
 	HOWEVER, CONSIDER THESE SKILL STREAMS:
 		TE - Tyler Eifert........4
 		FLEX - Mecole Hardman....10
@@ -37,7 +39,7 @@ Grundle Me This:
 		FLEX - Corey Davis.......13
 		FLEX - AJ Brown..........13
 	CONSIDER THIS DEFENSE STREAMING ADVICE:
-		Looks like you should pickup rank 5 - MIN over your rank ['9'] - ['CIN']
+		Looks like you should pickup rank 8 - SF over your rank ['9'] - ['CIN']
 	CONSIDER THIS KICKER STREAMING ADVICE:
 		Looks like you already have a great option in rank 1 - Bullock
 
@@ -61,6 +63,7 @@ Auction League:
 		Adrian Peterson..........5.0
 		Latavius Murray..........4.5
 		Philip Rivers............4.0
+		Malcolm Brown............3.5
 		Baker Mayfield...........3.0
 		Raheem Mostert...........2.0
 		John Ross................1.5
@@ -72,7 +75,7 @@ Auction League:
 		Alexander Mattison.......DROP
 		Philip Rivers............ADD
 		Peyton Barber............DROP
-		Baker Mayfield...........ADD
+		Malcolm Brown............ADD
 	CONSIDER THIS STARTING LINEUP:
 		Patrick Mahomes..........1
 		Derrick Henry............2
@@ -81,6 +84,7 @@ Auction League:
 		Courtland Sutton.........6
 		Will Dissly..............3
 		Phillip Lindsay..........6
+	BORIS CHEN SAYS TO MAKE THESE CHANGES TO LINEUP:
 	HOWEVER, CONSIDER THESE SKILL STREAMS:
 	CONSIDER THIS DEFENSE STREAMING ADVICE:
 		Looks like you already have a great option in rank 2 - CHI
@@ -128,6 +132,9 @@ Lynn Family League:
 		TY Hilton................7
 		Greg Olsen...............3
 		Frank Gore...............11
+	BORIS CHEN SAYS TO MAKE THESE CHANGES TO LINEUP:
+		Darrel Williams...............BENCH
+		Frank Gore...............START
 	HOWEVER, CONSIDER THESE SKILL STREAMS:
 		WR - Will Fuller.........6
 		WR - DJ Chark............6
@@ -184,6 +191,7 @@ PB League:
 		Brandin Cooks............4
 		OJ Howard................4
 		Stefon Diggs.............4
+	BORIS CHEN SAYS TO MAKE THESE CHANGES TO LINEUP:
 	HOWEVER, CONSIDER THESE SKILL STREAMS:
 		TE - Eric Ebron..........4
 		TE - Tyler Eifert........4
