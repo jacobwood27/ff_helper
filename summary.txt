@@ -12,17 +12,17 @@ Grundle Me This:
 		OJ Howard................3.5
 		Marvin Jones.............3.0
 		Baker Mayfield...........3.0
-		Peyton Barber............2.0
+		Mecole Hardman...........0.5
 		Preston Williams.........0
 		Antonio Brown............0
 	AVAILABLE FREE AGENTS:
 		Josh Allen...............4.0
-		Mecole Hardman...........0.5
+		Peyton Barber............2.0
 	CONSIDER THESE MOVES:
 		Antonio Brown............DROP
 		Josh Allen...............ADD
 		Preston Williams.........DROP
-		Mecole Hardman...........ADD
+		Peyton Barber............ADD
 	CONSIDER THIS STARTING LINEUP:
 		Carson Wentz.............2
 		Leonard Fournette........2
@@ -30,14 +30,10 @@ Grundle Me This:
 		Sammy Watkins............3
 		Courtland Sutton.........6
 		OJ Howard................4
+		Mecole Hardman...........10
 	BORIS CHEN SAYS TO MAKE THESE CHANGES TO LINEUP:
-		Mike Williams................BENCH
 	HOWEVER, CONSIDER THESE SKILL STREAMS:
 		TE - Tyler Eifert........4
-		FLEX - Mecole Hardman....10
-		FLEX - Diontae Johnson...12
-		FLEX - Corey Davis.......13
-		FLEX - AJ Brown..........13
 	CONSIDER THIS DEFENSE STREAMING ADVICE:
 		Looks like you should pickup rank 8 - SF over your rank ['9'] - ['CIN']
 	CONSIDER THIS KICKER STREAMING ADVICE:
@@ -55,25 +51,20 @@ Auction League:
 		Will Dissly..............8.0
 		Duke Johnson.............7.0
 		Courtland Sutton.........6.0
+		Adrian Peterson..........5.0
+		Philip Rivers............4.0
 		Peyton Barber............2.0
-		Alexander Mattison.......0.5
-		Jaylen Samuels...........0
 		Dante Pettis.............0
 	AVAILABLE FREE AGENTS:
-		Adrian Peterson..........5.0
 		Latavius Murray..........4.5
-		Philip Rivers............4.0
 		Malcolm Brown............3.5
 		Baker Mayfield...........3.0
 		Raheem Mostert...........2.0
 		John Ross................1.5
+		Alexander Mattison.......0.5
 	CONSIDER THESE MOVES:
 		Dante Pettis.............DROP
-		Adrian Peterson..........ADD
-		Jaylen Samuels...........DROP
 		Latavius Murray..........ADD
-		Alexander Mattison.......DROP
-		Philip Rivers............ADD
 		Peyton Barber............DROP
 		Malcolm Brown............ADD
 	CONSIDER THIS STARTING LINEUP:
@@ -133,8 +124,6 @@ Lynn Family League:
 		Greg Olsen...............3
 		Frank Gore...............11
 	BORIS CHEN SAYS TO MAKE THESE CHANGES TO LINEUP:
-		Darrel Williams...............BENCH
-		Frank Gore...............START
 	HOWEVER, CONSIDER THESE SKILL STREAMS:
 		WR - Will Fuller.........6
 		WR - DJ Chark............6
