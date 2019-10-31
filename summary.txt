@@ -1,192 +1,213 @@
 Grundle Me This:
 	YOUR TEAM:
-		Saquon Barkley...........31.0
-		Leonard Fournette........31.0
-		David Montgomery.........17.0
-		Sammy Watkins............15.0
-		Carson Wentz.............9.5
-		Mike Williams............8.0
-		Courtland Sutton.........6.0
-		Rex Burkhead.............5.0
-		Latavius Murray..........4.5
-		OJ Howard................3.5
-		Marvin Jones.............3.0
-		Baker Mayfield...........3.0
-		Mecole Hardman...........0.5
+		Saquon Barkley...........64.0
+		Leonard Fournette........44.0
+		David Montgomery.........16.0
+		Hunter Henry.............15.5
+		Courtland Sutton.........14.5
+		Mike Williams............8.5
+		Marvin Jones.............8.0
+		Latavius Murray..........8.0
+		Carson Wentz.............7.0
+		Jameis Winston...........4.5
+		Sammy Watkins............4.0
+		Rex Burkhead.............0
 		Preston Williams.........0
-		Antonio Brown............0
+		OJ Howard................0
 	AVAILABLE FREE AGENTS:
-		Josh Allen...............4.0
-		Peyton Barber............2.0
+		Christian Kirk...........7.0
+		Rashaad Penny............5.0
 	CONSIDER THESE MOVES:
-		Antonio Brown............DROP
-		Josh Allen...............ADD
+		OJ Howard................DROP
+		Christian Kirk...........ADD
 		Preston Williams.........DROP
-		Peyton Barber............ADD
+		Rashaad Penny............ADD
 	CONSIDER THIS STARTING LINEUP:
-		Carson Wentz.............2
+		Jameis Winston...........3
+		Saquon Barkley...........1
 		Leonard Fournette........2
-		David Montgomery.........4
-		Sammy Watkins............3
-		Courtland Sutton.........6
-		OJ Howard................4
-		Mecole Hardman...........10
+		Marvin Jones.............4
+		Courtland Sutton.........4
+		Hunter Henry.............2
+		David Montgomery.........5
 	BORIS CHEN SAYS TO MAKE THESE CHANGES TO LINEUP:
 	HOWEVER, CONSIDER THESE SKILL STREAMS:
-		TE - Tyler Eifert........4
 	CONSIDER THIS DEFENSE STREAMING ADVICE:
-		Looks like you should pickup rank 8 - SF over your rank ['9'] - ['CIN']
+		Looks like you should pickup rank 9 - MIA over your rank ['10'] - ['IND']
 	CONSIDER THIS KICKER STREAMING ADVICE:
-		Looks like you already have a great option in rank 1 - Bullock
+		Looks like you already have a great option in rank 1 - McManus
 
 Auction League:
 	YOUR TEAM:
-		Derrick Henry............37.0
-		Saquon Barkley...........31.0
-		Patrick Mahomes..........30.5
-		TY Hilton................26.0
-		LeSean McCoy.............19.0
-		Phillip Lindsay..........12.5
-		Marquise Brown...........8.5
-		Will Dissly..............8.0
-		Duke Johnson.............7.0
-		Courtland Sutton.........6.0
-		Adrian Peterson..........5.0
-		Philip Rivers............4.0
-		Peyton Barber............2.0
-		Dante Pettis.............0
+		Saquon Barkley...........64.0
+		Derrick Henry............32.5
+		TY Hilton................27.0
+		Patrick Mahomes..........20.0
+		Phillip Lindsay..........17.5
+		Courtland Sutton.........14.5
+		LeSean McCoy.............10.0
+		Adrian Peterson..........8.0
+		Marquise Brown...........7.0
+		Duke Johnson.............3.5
+		Gerald Everett...........3.0
+		NKeal Harry..............0
+		Gardner Minshew..........0
 	AVAILABLE FREE AGENTS:
-		Latavius Murray..........4.5
-		Malcolm Brown............3.5
-		Baker Mayfield...........3.0
-		Raheem Mostert...........2.0
-		John Ross................1.5
-		Alexander Mattison.......0.5
+		Phillip Dorsett..........5.5
+		Rashaad Penny............5.0
+		Frank Gore...............5.0
+		Jameis Winston...........4.5
+		Tony Pollard.............4.0
+		Sammy Watkins............4.0
+		Peyton Barber............4.0
+		Mohamed Sanu.............3.0
+		Marquez ValdesScantling..2.0
+		Jaylen Samuels...........1.5
 	CONSIDER THESE MOVES:
-		Dante Pettis.............DROP
-		Latavius Murray..........ADD
-		Peyton Barber............DROP
-		Malcolm Brown............ADD
+		Gardner Minshew..........DROP
+		Phillip Dorsett..........ADD
+		NKeal Harry..............DROP
+		Rashaad Penny............ADD
+		Gerald Everett...........DROP
+		Frank Gore...............ADD
+		Duke Johnson.............DROP
+		Jameis Winston...........ADD
 	CONSIDER THIS STARTING LINEUP:
-		Patrick Mahomes..........1
-		Derrick Henry............2
-		LeSean McCoy.............4
-		Marquise Brown...........4
-		Courtland Sutton.........6
-		Will Dissly..............3
-		Phillip Lindsay..........6
+		Gardner Minshew..........2
+		Saquon Barkley...........1
+		Derrick Henry............3
+		TY Hilton................2
+		Courtland Sutton.........4
+		Phillip Lindsay..........1
 	BORIS CHEN SAYS TO MAKE THESE CHANGES TO LINEUP:
+		Gerald Everett...........BENCH
 	HOWEVER, CONSIDER THESE SKILL STREAMS:
+		TE - Jonnu Smith.........3
+		TE - Eric Ebron..........4
+		TE - Dallas Goedert......4
+		TE - Jimmy Graham........4
+		TE - Darren Fells........4
+		TE - Cameron Brate.......4
+		TE - Vance McDonald......5
+		TE - Jason Witten........5
+		TE - Noah Fant...........6
+		TE - Kyle Rudolph........6
+		TE - Jordan Akins........7
+		TE - Dawson Knox.........7
+		TE - Irv Smith...........7
+		TE - Mike Gesicki........7
+		TE - Benjamin Watson.....7
 	CONSIDER THIS DEFENSE STREAMING ADVICE:
-		Looks like you already have a great option in rank 2 - CHI
+		Looks like you already have a great option in rank 6 - CHI
 	CONSIDER THIS KICKER STREAMING ADVICE:
-		Looks like you should pickup rank 1 - Bullock over your rank ['3'] - ['Lutz']
+		Looks like you already have a great option in rank 1 - McManus
 
 Lynn Family League:
 	YOUR TEAM:
-		Saquon Barkley...........31.0
-		Marlon Mack..............29.5
-		Tyreek Hill..............29.0
-		TY Hilton................26.0
-		Deshaun Watson...........17.0
-		Miles Sanders............12.0
-		Tevin Coleman............9.5
-		Rashaad Penny............9.5
-		Greg Olsen...............8.0
-		Frank Gore...............7.5
-		Duke Johnson.............7.0
-		DK Metcalf...............4.5
-		Darrel Williams..........1.5
+		Saquon Barkley...........64.0
+		Tyreek Hill..............40.5
+		Marlon Mack..............31.5
+		TY Hilton................27.0
+		Deshaun Watson...........24.0
+		Tevin Coleman............22.5
+		Ty Johnson...............4.0
+		Kenny Stills.............3.0
+		Gerald Everett...........3.0
+		NKeal Harry..............0
+		Greg Olsen...............0
 	AVAILABLE FREE AGENTS:
-		DJ Chark.................8.0
-		Jameis Winston...........7.0
-		Kenyan Drake.............6.5
-		Rex Burkhead.............5.0
-		Robby Anderson...........4.5
-		Latavius Murray..........4.5
-		Michael Gallup...........4.0
-		Will Fuller..............3.0
-		Golden Tate..............3.0
-		Jamaal Williams..........1.0
-		Mecole Hardman...........0.5
-		Alexander Mattison.......0.5
+		Drew Brees...............10.5
+		Robby Anderson...........8.0
+		Marquise Brown...........7.0
+		DK Metcalf...............6.5
+		Phillip Dorsett..........5.5
+		Rashaad Penny............5.0
+		Tony Pollard.............4.0
+		Peyton Barber............4.0
+		Jacoby Brissett..........4.0
+		Duke Johnson.............3.5
+		Chase Edmonds............3.5
+		Tarik Cohen..............3.0
+		Mohamed Sanu.............3.0
 	CONSIDER THESE MOVES:
-		Darrel Williams..........DROP
-		DJ Chark.................ADD
-		DK Metcalf...............DROP
-		Jameis Winston...........ADD
+		Greg Olsen...............DROP
+		Drew Brees...............ADD
+		NKeal Harry..............DROP
+		Robby Anderson...........ADD
+		Gerald Everett...........DROP
+		Marquise Brown...........ADD
+		Kenny Stills.............DROP
+		DK Metcalf...............ADD
+		Ty Johnson...............DROP
+		Phillip Dorsett..........ADD
 	CONSIDER THIS STARTING LINEUP:
 		Deshaun Watson...........1
-		Marlon Mack..............3
-		Miles Sanders............7
-		DK Metcalf...............7
-		TY Hilton................7
+		Saquon Barkley...........1
+		Tevin Coleman............3
+		Tyreek Hill..............1
+		TY Hilton................2
 		Greg Olsen...............3
-		Frank Gore...............11
+		Marlon Mack..............1
 	BORIS CHEN SAYS TO MAKE THESE CHANGES TO LINEUP:
 	HOWEVER, CONSIDER THESE SKILL STREAMS:
-		WR - Will Fuller.........6
-		WR - DJ Chark............6
-		WR - Mecole Hardman......7
-		WR - Geronimo Allison....7
-		WR - Robby Anderson......7
-		FLEX - Will Fuller.......7
-		FLEX - DJ Chark..........9
-		FLEX - Mecole Hardman....10
-		FLEX - Geronimo Allison..10
 	CONSIDER THIS DEFENSE STREAMING ADVICE:
-		Looks like you already have a great option in rank 1 - PHI
+		Looks like you should pickup rank 2 - NYJ over your rank ['>32', '10'] - ['JAX', 'IND']
 	CONSIDER THIS KICKER STREAMING ADVICE:
-		Looks like you already have a great option in rank 1 - Bullock
+		Looks like you already have a great option in rank 1 - McManus
 
 PB League:
 	YOUR TEAM:
-		Christian McCaffrey......67.5
-		Nick Chubb...............51.0
-		JuJu SmithSchuster.......28.0
-		Brandin Cooks............25.5
-		Lamar Jackson............20.5
-		Stefon Diggs.............17.0
-		Phillip Lindsay..........12.5
+		Christian McCaffrey......69.0
+		Nick Chubb...............44.5
+		Stefon Diggs.............23.5
+		Lamar Jackson............21.0
+		JuJu SmithSchuster.......20.5
+		Phillip Lindsay..........17.5
 		Miles Sanders............12.0
-		Rashaad Penny............9.5
-		Ronald Jones.............9.0
-		Carlos Hyde..............9.0
-		Frank Gore...............7.5
-		DK Metcalf...............4.5
-		OJ Howard................3.5
+		Brandin Cooks............11.0
+		DK Metcalf...............6.5
+		Rashaad Penny............5.0
+		Ty Johnson...............4.0
+		Chase Edmonds............3.5
+		TJ Hockenson.............0
 	AVAILABLE FREE AGENTS:
-		Rex Burkhead.............5.0
-		Adrian Peterson..........5.0
-		Robby Anderson...........4.5
-		Latavius Murray..........4.5
-		Baker Mayfield...........3.0
-		Raheem Mostert...........2.0
-		Peyton Barber............2.0
-		John Ross................1.5
-		Jamaal Williams..........1.0
-		Mecole Hardman...........0.5
-		Alexander Mattison.......0.5
+		Matt Ryan................14.0
+		Michael Gallup...........12.0
+		Carlos Hyde..............11.0
+		Devin Singletary.........10.0
+		Ronald Jones.............8.0
+		Robby Anderson...........8.0
+		Phillip Dorsett..........5.5
+		Tony Pollard.............4.0
+		Peyton Barber............4.0
+		Mohamed Sanu.............3.0
+		Marquez ValdesScantling..2.0
+		Jaylen Samuels...........1.5
 	CONSIDER THESE MOVES:
-		OJ Howard................DROP
-		Rex Burkhead.............ADD
+		TJ Hockenson.............DROP
+		Matt Ryan................ADD
+		Chase Edmonds............DROP
+		Michael Gallup...........ADD
+		Ty Johnson...............DROP
+		Carlos Hyde..............ADD
+		Rashaad Penny............DROP
+		Devin Singletary.........ADD
 		DK Metcalf...............DROP
-		Adrian Peterson..........ADD
+		Ronald Jones.............ADD
 	CONSIDER THIS STARTING LINEUP:
-		Lamar Jackson............1
+		Lamar Jackson............2
 		Christian McCaffrey......1
 		Nick Chubb...............2
+		Stefon Diggs.............2
 		JuJu SmithSchuster.......3
-		Brandin Cooks............4
-		OJ Howard................4
-		Stefon Diggs.............4
+		TJ Hockenson.............3
+		Phillip Lindsay..........1
 	BORIS CHEN SAYS TO MAKE THESE CHANGES TO LINEUP:
+		Chase Edmonds............BENCH
+		Phillip Lindsay..........START
 	HOWEVER, CONSIDER THESE SKILL STREAMS:
-		TE - Eric Ebron..........4
-		TE - Tyler Eifert........4
-		TE - Jimmy Graham........4
 	CONSIDER THIS DEFENSE STREAMING ADVICE:
-		Looks like you already have a great option in rank 1 - PHI
+		Looks like you already have a great option in rank 2 - NYJ
 	CONSIDER THIS KICKER STREAMING ADVICE:
-		Looks like you already have a great option in rank 1 - Bullock
+		Looks like you already have a great option in rank 1 - McManus
 

@@ -344,7 +344,7 @@ def get_stream(my_dude,rostered_dude,dude_rank):
         if dude in my_dude_lastnames:
             stream_advice = 'Looks like you already have a great option in rank ' + str(rank_dude_lastnames.index(dude) + 1) + ' - ' + dude
             break
-        elif dude not in rostered_dude:
+        elif dude not in rost_dude_lastnames:
             my_ranks = []
             for guy in my_dude_lastnames:
                 if guy in rank_dude_lastnames:
