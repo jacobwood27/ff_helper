@@ -1,0 +1,33 @@
+[
+    {   "platform":"SLEEPER",
+        "nickname":"Grundle Me This",
+        "league_id":"470314205950504960",
+        "players_file":"sleeper_players.pkl",
+        "team_num":8,
+        "scoring":"HALF"
+    },
+    {   "platform":"ESPN",
+        "nickname":"Auction League",
+        "league_id":"1889382",
+        "year":2019,
+        "swid":"{DA15D2DF-39CF-493B-95D2-DF39CF993B46}",
+        "espn_s2":"AEB%2BILmFxhqafm2YvjqdG7xw0hROHoIAr2lWmdy90SlgZeJrBPlGEclPKBphwVASEmDhEtI%2FD8Qc8mGda8PCMovvRHTCHP09cXgtwvlrf7a%2Bw2fTAcY7GEYOzMCzQ9L3XTDYBDCxMaNiBqNQhv1g8XNgmLXZ7GhAAa0lp5EcaqZQT4avngNfk2hyZNN9BRxY88OVxcAB5CNn1DvuEiMdDL9lOwhpV0Z5Ef4%2B4f7iqssT8tPbMFQXMvzPmx6gx0F4BWGNmUag4XFk2LFyosciIZnF",
+        "team_num":5,
+        "scoring":"HALF"
+    },    
+    {   "platform":"YAHOO",
+        "nickname":"Lynn Family League",
+        "oauth_file":"oauth2.json",
+        "lg_number":"390.l.824038",
+        "scoring":"HALF"
+    },
+    {   "platform":"ESPN",
+        "nickname":"PB League",
+        "league_id":"4163238",
+        "year":2019,
+        "swid":"{DA15D2DF-39CF-493B-95D2-DF39CF993B46}",
+        "espn_s2":"AEBvebhUOirxwlM6rkDoN7J5QDPW1CzZwAqEcTqfRO70k47n%2BvJ%2FpyfsgNTk5AKlVX0dvAqLAYXLsk0hOPTlgEYre8IMma%2BffHnzQH4sWR8%2B2Re811T8QTYN0DuXTAlTAyWfp%2Bjzs50K0MareV1FbeTHJAkgQ8nhPw%2F7v075r4VKb5SDECHZBy%2FG3HcSLfGD7jN3YOQWFxiiXhJcqX9pJtEczKD2eZx70euhh87WJr89AMvkUTlR6uTOLdWFltuRlzYxGDmHjWdFkSzujiLNEYu2",
+        "team_num":10,
+        "scoring":"PPR"
+    }
+]

@@ -1,9 +1,13 @@
 theme: jekyll-theme-minimal
-title: GitHub pages template
-description: A simple template based on minimal jekyll theme
-show_downloads: True
+title: Fantasy Football Prediction Collection
+description: agkna,sdnfa,ksdnfja
+show_downloads: False
 navigation:
-  - title: Home
-    url: /
-  - title: League1
-    url: league01
+  - title: Grundle Me This
+    url: league_GrundleMeThis
+  - title: Auction League
+    url: league_AuctionLeague
+  - title: Lynn Family League
+    url: league_LynnFamilyLeague
+  - title: PB League
+    url: league_PBLeague
