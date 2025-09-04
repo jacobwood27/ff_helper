@@ -6,7 +6,7 @@ ff_espn_api == 1.1.2
 fuzzywuzzy == 0.17.0
 nameparser == 1.0.4
 praw == 6.4.0
-requests == 2.31.0
+requests == 2.32.4
 sleeper_api_wrapper == 1.0.7
 yahoo_fantasy_api == 1.2.0
 yahoo_oauth == 0.1.9
